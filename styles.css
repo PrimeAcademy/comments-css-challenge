@@ -5,4 +5,11 @@ body {
     background-color: hsl(0, 0%, 100%);
     margin: 36px 313px;
     padding: 52px;
+    border-radius: 10px;
+}
+.reply {
+    background-color: hsl(0, 0%, 100%);
+    margin: 36px 313px 20px 398px;
+    padding: 52px;
+    border-radius: 10px;
 }
