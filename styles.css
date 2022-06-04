@@ -1,0 +1,39 @@
+body {
+    background-color: hsl(228, 33%, 97%);
+    font-family: 'Rubik';
+    font-size: 16px;
+    color: hsl(211, 10%, 45%);
+}
+.comment {
+    background-color: hsl(0, 0%, 100%);
+    margin: 36px 313px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.reply {
+    background-color: hsl(0, 0%, 100%);
+    margin: 36px 313px 20px 398px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.at_person {
+    color: hsl(238, 40%, 52%);
+}
+img {
+    width: 35px;
+}
+.username {
+    float: right;
+    padding-right: 435px;
+    padding-top: 10px;
+}
+.username_reply {
+    float: right;
+    padding-right: 340px;
+    padding-top: 10px;  
+}
+.time_ago {
+    float: left;
+    padding-right: 435px;
+    padding-top: 10px;    
+}

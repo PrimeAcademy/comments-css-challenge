@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 
   <title>Frontend Mentor | Interactive comments section</title>
 
@@ -21,10 +22,38 @@
   </style>
 </head>
 <body>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div id="comment_1_container" class="comment">
+    <img src="images/avatars/image-amyrobson.png">
+    <span class="username">amyrobinson</span>
+    <p>Impressive! Though it seems the drag feature could be imporved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</p>
   </div>
+
+  <div id="comment_2_container" class="comment">
+    <img src="images/avatars/image-maxblagun.png">
+    <span class="username">maxblagun</span>
+    <p>Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!</p>
+  </div>
+
+  <div id="com_2_reply_1" class="reply">
+    <img src="images/avatars/image-ramsesmiron.png">
+    <span class="username_reply">ramsesmiron</span>
+    <p><span class="at_person">@maxblagun</span> If you're still new. I'd recommend focusing on the fundamentals of HTML, CSS and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.</p>
+  </div>
+    
+  <div id="com_2_reply_2" class="reply">
+    <p><span class="at_person">@ramsesmiron</span> I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.</p>
+  </div>
+  
+  
+  <div id="add_comment" class="comment">
+
+  </div>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Neil Hanson</a>.
+    </div>
+  </footer>
 </body>
 </html>
