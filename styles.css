@@ -19,3 +19,11 @@ body {
 .at_person {
     color: hsl(238, 40%, 52%);
 }
+img {
+    width: 35px;
+}
+.username {
+    float: right;
+    padding-right: 435px;
+    padding-top: 10px;
+}
