@@ -1,0 +1,8 @@
+body {
+    background-color: hsl(228, 33%, 97%);
+}
+.comment {
+    background-color: hsl(0, 0%, 100%);
+    margin: 36px 313px;
+    padding: 52px;
+}
