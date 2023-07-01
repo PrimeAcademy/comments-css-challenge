@@ -47,9 +47,7 @@ p {
 /***** MEDIA ******/
 
 /* CONTAINER */
-.container {
-    padding: 0 20px;
-}
+
 
 /* Profile */
 .row {
@@ -71,7 +69,7 @@ p {
 }
 
 /* break line */
-.media {
+.media-comment {
     border-left: 2px solid #ebebed;
     margin-bottom: 10px;
     padding-left: 40px;
@@ -81,15 +79,20 @@ p {
 /* FORM */ 
 .form-control {
     margin-left: 10px;
-    margin-right: 20px;
-    padding: 15px 20px;
+    margin-right: 100px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
 
 /****** BUTTON ******/
 .btn-primary {
-    padding: 5px 20px;
+    padding: 10px 25px;
     background-color: hsl(238, 40%, 52%);
+    position: absolute;
+    top:20px;
+    right: 20px;;
+    font-size: small;
 }
 
 /* reply/delete/edit */
