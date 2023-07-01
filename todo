@@ -1,0 +1,13 @@
+<div class="d-flex" style="height: 200px;">
+  <div class="vr"></div>
+</div>
+
+vertical line 
+
+
+reply 
+<div class="'col-4">
+    <div class="pull-right reply">
+      <a href="#"><span><i class="fa fa-reply"></i> reply</span></a>
+    </div>
+  </div>

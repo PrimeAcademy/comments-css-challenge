@@ -1,0 +1,103 @@
+/***** BODY ******/
+
+body {
+  background-color: #f5f6fa;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(211, 10%, 45%);
+    font-size: 16px;
+    display: grid;
+}
+
+/* TEXT */
+
+/* name */ 
+h6 {
+    color:hsl(212, 24%, 26%);
+    margin-left: 15px;
+    margin-bottom: 0;
+    line-height: unset;
+}
+
+/* tag */ 
+a {
+   color: hsl(238, 40%, 52%)
+}
+
+/* paragraph */ 
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* date */
+.date {
+    margin-left: 20px;
+}
+
+.you {
+    color:white;
+    background-color: hsl(238, 40%, 52%); 
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 10px;
+}
+
+/***** MEDIA ******/
+
+/* CONTAINER */
+.container {
+    padding: 0 20px;
+}
+
+/* Profile */
+.row {
+    margin: 0;
+}
+
+/* COMMENT */
+.card.mb-4 {
+    border: 1px solid hsl(0, 0%, 100%);
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* COMMENT BOX */
+.card.mb-5 {
+    border: 1px solid hsl(0, 0%, 100%);
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* break line */
+.media {
+    border-left: 2px solid #ebebed;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    margin-left: 40px;
+  }
+
+/* FORM */ 
+.form-control {
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 15px 20px;
+}
+
+
+/****** BUTTON ******/
+.btn-primary {
+    padding: 5px 20px;
+    background-color: hsl(238, 40%, 52%);
+}
+
+/* reply/delete/edit */
+
+.font-weight-bold.reply, .font-weight-bold.edit {
+    color: hsl(238, 40%, 52%);
+} 
+.font-weight-bold.delete {
+    margin-right: 20px;
+   color: hsl(358, 79%, 66%);
+}
