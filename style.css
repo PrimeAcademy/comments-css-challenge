@@ -55,7 +55,10 @@ p {
      padding-right: 10px;
 }
 
-
+/* Container */
+.container-fluid{
+    width: 70%;
+}
 .container {
     min-width: 590px;
 }
