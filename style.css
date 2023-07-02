@@ -6,9 +6,11 @@ body {
     color: hsl(211, 10%, 45%);
     font-size: 16px;
     display: grid;
+    margin-left: 10em;
+    margin-right: 10em;
 }
 
-/* TEXT */
+/****** TEXT *****/
 
 /* name */ 
 h6 {
@@ -17,23 +19,20 @@ h6 {
     margin-bottom: 0;
     line-height: unset;
 }
-
 /* tag */ 
 a {
    color: hsl(238, 40%, 52%)
 }
-
 /* paragraph */ 
 p {
-    margin-top: 1em;
+    margin-top: .5em;
     margin-bottom: 1em;
 }
-
 /* date */
 .date {
     margin-left: 20px;
 }
-
+/* you */
 .you {
     color:white;
     background-color: hsl(238, 40%, 52%); 
@@ -44,21 +43,47 @@ p {
     margin-left: 10px;
 }
 
+
 /***** MEDIA ******/
+/* number box */
+.number-box {
+    background-color:hsl(228, 33%, 97%);
+     height: fit-content;
+     color: hsl(238, 40%, 52%);
+     border-radius: 10px; 
+     padding-left: 10px;
+     padding-right: 10px;
+}
 
-/* CONTAINER */
 
+.container {
+    min-width: 590px;
+}
 
-/* Profile */
 .row {
-    margin: 0;
+    margin-left: 5px;
 }
 
 /* COMMENT */
+
+.card-body {
+    padding-bottom:0;
+    padding-left:0;
+    padding-right:0;
+}
 .card.mb-4 {
     border: 1px solid hsl(0, 0%, 100%);
     background-color: white;
     border-radius: 10px;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.card.mb-4.reply {
+    border: 1px solid hsl(0, 0%, 100%);
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 40px;
 }
 
 /* COMMENT BOX */
@@ -66,20 +91,22 @@ p {
     border: 1px solid hsl(0, 0%, 100%);
     background-color: white;
     border-radius: 10px;
+    margin-left: 10em;
+    margin-right: 10em;
 }
-
 /* break line */
-.media-comment {
+.media-body {
     border-left: 2px solid #ebebed;
     margin-bottom: 10px;
-    padding-left: 40px;
-    margin-left: 40px;
+    margin-left: 13em;
+
   }
+
 
 /* FORM */ 
 .form-control {
-    margin-left: 10px;
-    margin-right: 100px;
+    margin-left: 15px;
+    margin-right: 130px;
     padding-left: 15px;
     padding-top: 15px;
 }
@@ -94,9 +121,7 @@ p {
     right: 20px;;
     font-size: small;
 }
-
 /* reply/delete/edit */
-
 .font-weight-bold.reply, .font-weight-bold.edit {
     color: hsl(238, 40%, 52%);
 } 
@@ -104,3 +129,8 @@ p {
     margin-right: 20px;
    color: hsl(358, 79%, 66%);
 }
+
+.attribution {
+    text-align: center;
+}
+

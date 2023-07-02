@@ -50,102 +50,37 @@
 
   <body>
     <!-- MAIN CONTAINER -->
-    <div class="container">
+    <div class="container-fluid">
       <!-- Comment #1 -->
-      <div class="card mb-4">
+      <div class="card mb-4 mt-5">
         <div class="card-body">
           <div class="container">
-
-           <div class="media" >12 </div>
-
             <div class="row">
-              <img
-                class="rounded-circle"
-                src="./images/avatars/image-amyrobson.png"
-                alt="amyrobson"
-                width="35"
-              />
-              <h6 class="align-self-center">amyrobson</h6>
-              <span class="date align-self-center">1 month ago</span>
-
-              <div class="pull-right reply align-self-center ml-auto">
-                <a href="#reply"
-                  ><span class="font-weight-bold reply"
-                    ><img
-                      alt="icon-reply"
-                      class="mr-2"
-                      src="./images/icon-reply.svg"
-                    />Reply</span
-                  ></a
-                >
+                  <!-- COMMENT NUMBER -->
+              <div class="number-box">
+               <img
+                    alt="icon-add"
+                    class="add"
+                    src="./images/icon-plus.svg"
+                />
+                <p class="media-number">12</p>
+                  <img
+                    alt="icon-minus"
+                    class="minus"
+                    src="./images/icon-minus.svg"
+                />
               </div>
-
-              <p>
-                Impressive! Though it seems the drag feature could be improved.
-                But overall it looks incredible. You've nailed the design and
-                the responsiveness at various breakpoints works really well.
-              </p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Comment #2 -->
-      <div class="card mb-4">
-        <div class="card-body">
-          <div class="container">
-            5
-            <div class="row">
-              <img
-                class="rounded-circle"
-                src="./images/avatars/image-maxblagun.png"
-                alt="maxblagun"
-                width="35"
-              />
-              <h6 class="align-self-center">maxblagun</h6>
-              <span class="date align-self-center">2 weeks ago</span>
-
-              <div class="pull-right reply align-self-center ml-auto">
-                <a href="#reply"
-                  ><span class="font-weight-bold reply"
-                    ><img
-                      alt="icon-reply"
-                      class="mr-2"
-                      src="./images/icon-reply.svg"
-                    />Reply</span
-                  ></a
-                >
-              </div>
-            
-            <p>
-              Woah, your project looks awesome! How long have you been coding
-              for? I'm still new, but think I want to dive into React as well
-              soon. Perhaps you can give me an insight on where I can learn
-              React? Thanks!
-            </p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="media-comment">
-        <div class="media-body">
-          <!-- Comment #3 (Reply to comment #2) -->
-          <div class="card mb-4">
-            <div class="card-body">
-              <div class="container">
-                4
+              <!-- MEDIA -->
+              <div class="col-11">
                 <div class="row">
                   <img
                     class="rounded-circle"
-                    src="./images/avatars/image-ramsesmiron.png"
-                    alt="ramsesmiron"
+                    src="./images/avatars/image-amyrobson.png"
+                    alt="amyrobson"
                     width="35"
                   />
-                  <h6 class="align-self-center">ramsesmiron</h6>
-                  <span class="date align-self-center">1 week ago</span>
+                  <h6 class="align-self-center">amyrobson</h6>
+                  <span class="date align-self-center">1 month ago</span>
 
                   <div class="pull-right reply align-self-center ml-auto">
                     <a href="#reply"
@@ -158,77 +93,13 @@
                       ></a
                     >
                   </div>
-               
-                <p>
-                  <span
-                    ><a class="profile-reply font-weight-bold" href="#maxblegun"
-                      >@maxblagun</a
-                    ></span
-                  >
-                  If you're still new, I'd recommend focusing on the
-                  fundamentals of HTML, CSS, and JS before considering React.
-                  It's very tempting to jump ahead but lay a solid foundation
-                  first.
-                </p>
-                </div>
 
-              </div>
-            </div>
-          </div>
-
-          <!-- Comment #4 (Reply to comment #2) -->
-          <div class="card mb-4">
-            <div class="card-body">
-              <div class="container">
-                2
-                <div class="row">
-                  <img
-                    class="rounded-circle"
-                    src="./images/avatars/image-juliusomo.webp"
-                    alt="juliusomo"
-                    width="35"
-                  />
-
-                  <h6 class="align-self-center">juliusomo</h6>
-                  <span class="you align-self-center">you</span>
-                  <span class="date align-self-center">2 days ago</span>
-
-                  <div class="pull-right delete align-self-center ml-auto">
-                    <a href="#delete"
-                      ><span class="font-weight-bold delete"
-                        ><img
-                          alt="icon-delete"
-                          class="mr-2"
-                          src="./images/icon-delete.svg"
-                        />Delete</span
-                      ></a
-                    >
-                  </div>
-                  <div class="pull-right edit align-self-center">
-                    <a href="#edit"
-                      ><span class="font-weight-bold edit"
-                        ><img
-                          alt="icon-edit"
-                          class="mr-2"
-                          src="./images/icon-edit.svg"
-                        />Edit</span
-                      ></a
-                    >
-                  </div>
-               
-                <p>
-                  <span
-                    ><a
-                      class="profile-reply font-weight-bold"
-                      href="#ramsesmiron"
-                      >@ramsesmiron</a
-                    ></span
-                  >
-                  I couldn't agree more with this. Everything moves so fast and
-                  it always seems like everyone knows the newest
-                  library/framework. But the fundamentals are what stay
-                  constant.
-                </p>
+                  <p>
+                    Impressive! Though it seems the drag feature could be
+                    improved. But overall it looks incredible. You've nailed the
+                    design and the responsiveness at various breakpoints works
+                    really well.
+                  </p>
                 </div>
               </div>
             </div>
@@ -236,12 +107,213 @@
         </div>
       </div>
 
+      <!-- Comment #2 -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <!-- COMMENT NUMBER -->
+              <div class="number-box">
+                <img
+                     alt="icon-add"
+                     class="add "
+                     src="./images/icon-plus.svg"
+                 />
+                 <p class="media-number">5</p>
+                   <img
+                     alt="icon-minus"
+                     class="minus"
+                     src="./images/icon-minus.svg"
+                 />
+               </div>
+              <!-- MEDIA -->
+              <div class="col-11">
+                <div class="row">
+                  <img
+                    class="rounded-circle"
+                    src="./images/avatars/image-maxblagun.png"
+                    alt="maxblagun"
+                    width="35"
+                  />
+                  <h6 class="align-self-center">maxblagun</h6>
+                  <span class="date align-self-center">2 weeks ago</span>
+
+                  <div class="pull-right reply align-self-center ml-auto">
+                    <a href="#reply"
+                      ><span class="font-weight-bold reply"
+                        ><img
+                          alt="icon-reply"
+                          class="mr-2"
+                          src="./images/icon-reply.svg"
+                        />Reply</span
+                      ></a
+                    >
+                  </div>
+
+                  <p>
+                    Woah, your project looks awesome! How long have you been
+                    coding for? I'm still new, but think I want to dive into
+                    React as well soon. Perhaps you can give me an insight on
+                    where I can learn React? Thanks!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reply">
+      <div class="media-comment">
+        <div class="media-body">
+          <!-- Comment #3 (Reply to comment #2) -->
+          <div class="card mb-4 reply">
+            <div class="card-body">
+              <div class="container">
+                <div class="row">
+                    <!-- COMMENT NUMBER -->
+                    <div class="number-box">
+                      <img
+                           alt="icon-add"
+                           class="add"
+                           src="./images/icon-plus.svg"
+                       />
+                       <p class="media-number">4</p>
+                         <img
+                           alt="icon-minus"
+                           class="minus"
+                           src="./images/icon-minus.svg"
+                       />
+                     </div>
+                  <!-- MEDIA -->
+                  <div class="col-11">
+                    <div class="row">
+                      <img
+                        class="rounded-circle"
+                        src="./images/avatars/image-ramsesmiron.png"
+                        alt="ramsesmiron"
+                        width="35"
+                      />
+                      <h6 class="align-self-center">ramsesmiron</h6>
+                      <span class="date align-self-center">1 week ago</span>
+
+                      <div class="pull-right reply align-self-center ml-auto">
+                        <a href="#reply"
+                          ><span class="font-weight-bold reply"
+                            ><img
+                              alt="icon-reply"
+                              class="mr-2"
+                              src="./images/icon-reply.svg"
+                            />Reply</span
+                          ></a
+                        >
+                      </div>
+
+                      <p>
+                        <span
+                          ><a
+                            class="profile-reply font-weight-bold"
+                            href="#maxblegun"
+                            >@maxblagun</a
+                          ></span
+                        >
+                        If you're still new, I'd recommend focusing on the
+                        fundamentals of HTML, CSS, and JS before considering
+                        React. It's very tempting to jump ahead but lay a solid
+                        foundation first.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Comment #4 (Reply to comment #2) -->
+          <div class="card mb-4 reply">
+            <div class="card-body">
+              <div class="container">
+                <div class="row">
+                  <!-- COMMENT NUMBER -->
+                  <div class="number-box">
+                    <img
+                         alt="icon-add"
+                         class="add"
+                         src="./images/icon-plus.svg"
+                     />
+                     <p class="media-number">2</p>
+                       <img
+                         alt="icon-minus"
+                         class="minus"
+                         src="./images/icon-minus.svg"
+                     />
+                   </div>
+              <!-- MEDIA -->
+              <div class="col-11">
+                    <div class="row">
+                      <img
+                        class="rounded-circle"
+                        src="./images/avatars/image-juliusomo.webp"
+                        alt="juliusomo"
+                        width="35"
+                      />
+
+                      <h6 class="align-self-center">juliusomo</h6>
+                      <span class="you align-self-center">you</span>
+                      <span class="date align-self-center">2 days ago</span>
+
+                      <div class="pull-right delete align-self-center ml-auto">
+                        <a href="#delete"
+                          ><span class="font-weight-bold delete"
+                            ><img
+                              alt="icon-delete"
+                              class="mr-2"
+                              src="./images/icon-delete.svg"
+                            />Delete</span
+                          ></a
+                        >
+                      </div>
+                      <div class="pull-right edit align-self-center">
+                        <a href="#edit"
+                          ><span class="font-weight-bold edit"
+                            ><img
+                              alt="icon-edit"
+                              class="mr-2"
+                              src="./images/icon-edit.svg"
+                            />Edit</span
+                          ></a
+                        >
+                      </div>
+
+                      <p>
+                        <span
+                          ><a
+                            class="profile-reply font-weight-bold"
+                            href="#ramsesmiron"
+                            >@ramsesmiron</a
+                          ></span
+                        >
+                        I couldn't agree more with this. Everything moves so
+                        fast and it always seems like everyone knows the newest
+                        library/framework. But the fundamentals are what stay
+                        constant.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
       <!-- TEXT BOX -->
-      <div class="card mb-5">
+      <div class="card mb-5 pb-4">
         <div class="card-body">
           <div class="d-flex flex-start">
             <img
-              class="rounded-circle"
+              class="rounded-circle ml-3"
               src="./images/avatars/image-juliusomo.png"
               alt="juliusomo"
               width="40"
